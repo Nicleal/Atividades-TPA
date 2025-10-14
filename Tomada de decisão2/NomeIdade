@@ -1,0 +1,27 @@
+import java.util.Scanner;
+  public class Idade{
+      public static void main (String[] args) {
+          Scanner in = new Scanner(System.in);
+          Double idade1,idade2,nome1,nome2,resposta;
+          System.out.println("Digite o nome da primeira pessoa:");
+          nome1 = in.nextDouble();
+          System.out.println("Digite o nome da segunda pessoa:");
+          nome2 = in.nextDouble();
+          System.out.println("Digite a idade da primeira pessoa:");
+          idade1 = in.nextDouble();
+          System.out.println("Digite a idade da segunda pessoa:");
+          idade2 = in.nextDouble();
+ 
+          if (idade1 > idade2) {
+            System.out.println("Mais velho: " + nome1 + " (" + idade1 + " anos)");
+            System.out.println("Mais novo: " + nome2 + " (" + idade2 + " anos)");
+          } else if (idade2 > idade1) {
+            System.out.println("Mais velho: " + nome2 + " (" + idade2 + " anos)");
+            System.out.println("Mais novo: " + nome1 + " (" + idade1 + " anos)");
+          } else {
+            System.out.println(nome1 + " e " + nome2 + " têm a mesma idade (" + idade1 + " anos).");
+        }
+ 
+          
+      }
+  }
