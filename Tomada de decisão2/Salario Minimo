@@ -1,0 +1,23 @@
+import java.util.Scanner;
+  public class Consumo{
+      public static void main (String[] args) {
+          Scanner in = new Scanner(System.in);
+          Double sMinimo,salario,diferenca;
+          System.out.println("Digite o valor do seu salario:");
+          salario = in.nextDouble();
+          System.out.println("Digite o valor do salario minimo atualmente:");
+          sMinimo = in.nextDouble();
+          diferenca = salario-sMinimo
+ 
+            if (salario > sMinimo) {
+            System.out.println("Acima do salario minino."+ diferença);
+ 
+          } else if (salario < sMinimo) {
+            System.out.println("Abaixo do salario minimo "+ diferença);
+          } else {
+            System.out.println("A pessoa recebe exatamente o salario minimo");
+        }
+ 
+          
+      }
+  }
